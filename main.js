@@ -264,7 +264,7 @@ function animate() {
     });
 }
 
-addEventListener('touchend', (event) => {
+addEventListener('touchstart', (event) => {
     const angle = Math.atan2(event.clientY - canvas.height / 2,
         event.clientX - canvas.width / 2
     )
