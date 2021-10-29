@@ -285,7 +285,7 @@ c.addEventListener('touchstart', (event) => {
     )
 });
 
-startGameBtn.addEventListener('touchstart', () => {
+startGameBtn.addEventListener('click', () => {
     init();
     animate();
     spawnEnemies();
