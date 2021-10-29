@@ -9,6 +9,7 @@ const startGameBtn = document.querySelector('#startGameBtn');
 const modalEl = document.querySelector('#modalEl');
 const bigScoreEl = document.querySelector('#bigScoreEl');
 const music=document.querySelector('#music');
+const shot=document.querySelector('#shot');
 
 
 class Player {
@@ -283,6 +284,7 @@ canvas.addEventListener('click', (event) => {
             velocity
         )
     )
+    shot.play();
 });
 
 startGameBtn.addEventListener('click', () => {
