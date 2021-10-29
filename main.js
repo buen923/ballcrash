@@ -139,7 +139,7 @@ let particles = [];
 function init() {
     player = new Player(x, y, 10, 'white');
     projectiles = [];
-    enemies.splice(0)
+    enemies = [];
     particles = [];
     score = 0;
     scoreEl.innerHTML = score;
