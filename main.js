@@ -285,7 +285,7 @@ canvas.addEventListener('touchstart', (event) => {
     )
 });
 
-startGameBtn.addEventListener('click', () => {
+startGameBtn.addEventListener('touchstart', () => {
     init();
     animate();
     spawnEnemies();
