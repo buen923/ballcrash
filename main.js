@@ -284,8 +284,8 @@ canvas.addEventListener('click', (event) => {
             velocity
         )
     )
+    shot.currentTime=0;
     shot.play();
-　　 shot.loop();
 });
 
 startGameBtn.addEventListener('click', () => {
