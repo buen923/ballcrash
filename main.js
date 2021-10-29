@@ -284,6 +284,7 @@ canvas.addEventListener('click', (event) => {
             velocity
         )
     )
+    shot.load();
     shot.play();
 });
 
