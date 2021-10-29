@@ -284,7 +284,6 @@ canvas.addEventListener('click', (event) => {
             velocity
         )
     )
-    shot.currentTime = 0;
     shot.play();
 });
 
