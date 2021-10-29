@@ -285,6 +285,7 @@ canvas.addEventListener('click', (event) => {
         )
     )
     shot.play();
+　　 shot.loop();
 });
 
 startGameBtn.addEventListener('click', () => {
