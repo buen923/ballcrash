@@ -264,9 +264,9 @@ function animate() {
     });
 }
 
-addEventListener('touchstart', (event) => {
-    const angle = Math.atan2(event.pageY - canvas.height / 2,
-        event.pageX - canvas.width / 2
+addEventListener('MSPointerDown', (event) => {
+    const angle = Math.atan2(event.clientY - canvas.height / 2,
+        event.clientX - canvas.width / 2
     )
     const velocity = {
         x: Math.cos(angle) * 5,
