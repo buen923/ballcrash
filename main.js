@@ -139,7 +139,7 @@ let particles = [];
 function init() {
     player = new Player(x, y, 10, 'white');
     projectiles = [];
-    enemies = [];
+    enemies.splice(0)
     particles = [];
     score = 0;
     scoreEl.innerHTML = score;
@@ -155,7 +155,7 @@ function spawnEnemies() {
         let y;
         let circledeg=0;
         let circlespeed=0.5;
-        let speed=0.5
+        let speed=Math.random()＊3
 
         const radius = Math.random() * (30 - 4) + 4;
 
