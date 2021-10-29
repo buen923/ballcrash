@@ -155,7 +155,7 @@ function spawnEnemies() {
         let y;
         let circledeg=0;
         let circlespeed=0.5;
-        let speed=Math.random()*3;
+        let speed=0.5
 
         const radius = Math.random() * (30 - 4) + 4;
 
